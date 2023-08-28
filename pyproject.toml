@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "django-sample-poetry"
+version = "0.1.0"
+description = "Django Sample with Poetry"
+authors = [
+    "KingdomKoder <kj8608@gmail.com>"
+]
+readme = "README.md"
+packages = [{include = "django_sample_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+Pillow = "^10.0.0"
+psycopg2-binary = "^2.9.7"
+django-environ = "^0.10.0"
+django-mathfilters = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+django-debug-toolbar = "^4.2.0"
+django-extensions = "^3.2.3"
+flake8 = "^6.1.0"
+ipython = "^8.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
