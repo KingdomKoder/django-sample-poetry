@@ -285,6 +285,7 @@ Options
 | `--why`    | If you do not specify a version constraint, poetry will choose a suitable one based on the available package versions. |
 | `--tree`   | List the dependencies as a tree.                             |
 | `--latest` | Show the latest version.                                     |
+| `-T`       | Only show explicitly defined packages.                       |
 
 ### search
 
