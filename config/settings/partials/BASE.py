@@ -18,7 +18,7 @@ CONFIG_DIR = ROOT_DIR.path('config')
 
 SECRET_KEY = os.environ["DJANGO_SECRET_KEY"]
 
-os.environ["DJANGO_ALLOWED_HOSTS"]
+ALLOWED_HOST = ['*']
 
 ROOT_URLCONF = 'config.urls'
 
