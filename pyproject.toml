@@ -6,7 +6,6 @@ authors = [
     "KingdomKoder <kj8608@gmail.com>"
 ]
 readme = "README.md"
-packages = [{include = "django_sample_poetry"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
